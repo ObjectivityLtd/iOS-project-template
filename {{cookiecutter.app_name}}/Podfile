@@ -13,7 +13,7 @@ target '{{cookiecutter.app_name}}' do
   pod 'SwiftLint', '0.37.0'
   pod 'RxSwift', '5.0.1'
   pod 'RxCocoa', '5.0.1'
-  pod 'RxAlamofire', '5.0.1'
+  pod 'RxAlamofire', '5.1.0'
   pod 'Swinject', '2.7.1'
   pod 'Kingfisher', '5.11.0'
   pod 'KeychainAccess', '4.1.0'
