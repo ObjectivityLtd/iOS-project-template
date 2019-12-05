@@ -11,12 +11,19 @@ target '{{cookiecutter.app_name}}' do
 
   pod 'R.swift', '5.1.0'
   pod 'SwiftLint', '0.37.0'
+  pod 'RxSwift', '5.0.1'
+  pod 'RxCocoa', '5.0.1'
+  pod 'RxAlamofire', '5.0.1'
+  pod 'Swinject', '2.7.1'
+  pod 'Kingfisher', '5.11.0'
+  pod 'KeychainAccess', '4.1.0'
+  pod 'SwiftMessages', '7.0.1'
 
   target '{{cookiecutter.app_name}}Tests' do
     pod 'SwiftyMocky', '3.4.0'
     pod 'Quick', '2.1.0'
     pod 'Nimble', '8.0.1'
-    pod 'RxBlocking', '4.5.0'
+    pod 'RxBlocking', '5.0.1'
     inherit! :search_paths
   end
 end
