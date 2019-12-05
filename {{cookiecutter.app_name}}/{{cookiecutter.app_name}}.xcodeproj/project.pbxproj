@@ -12,10 +12,10 @@
 		2A1E77371F384BFC006C84D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E77361F384BFC006C84D4 /* AppDelegate.swift */; };
 		2A1E773E1F384BFD006C84D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A1E773D1F384BFD006C84D4 /* Assets.xcassets */; };
 		2A1E77411F384BFD006C84D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1E773F1F384BFD006C84D4 /* LaunchScreen.storyboard */; };
-		2A9222821F38797600A648E6 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9222811F38797600A648E6 /* ConfigurationManager.swift */; };
 		2ABEE6D41F38856A00531205 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2ABEE6D31F38828A00531205 /* Configuration.plist */; };
 		2ABEE6D61F3886D700531205 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABEE6D51F3886D700531205 /* RootRouter.swift */; };
 		553FC23C214047CB001D9362 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553FC23B214047CB001D9362 /* R.generated.swift */; };
+		62A870E3239916970062E379 /* SwiftConfiguration.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A870E2239916970062E379 /* SwiftConfiguration.generated.swift */; };
 		C90395241FC622D2006F1DC0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90395231FC622D2006F1DC0 /* main.swift */; };
 		C90395261FC62399006F1DC0 /* TestsAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90395251FC62399006F1DC0 /* TestsAppDelegate.swift */; };
 		C90395271FC62425006F1DC0 /* TestsAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90395251FC62399006F1DC0 /* TestsAppDelegate.swift */; };
@@ -42,12 +42,12 @@
 		2A1E77421F384BFD006C84D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A1E77471F384BFD006C84D4 /* {{cookiecutter.app_name}}Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "{{cookiecutter.app_name}}Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A1E774D1F384BFD006C84D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A9222811F38797600A648E6 /* ConfigurationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
 		2A9222841F387B1D00A648E6 /* {{cookiecutter.app_name}}Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "{{cookiecutter.app_name}}Tests-Bridging-Header.h"; sourceTree = "<group>"; };
 		2ABEE6D31F38828A00531205 /* Configuration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
 		2ABEE6D51F3886D700531205 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
 		553FC23B214047CB001D9362 /* R.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		55F50BE321404BDD00FAC039 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		62A870E2239916970062E379 /* SwiftConfiguration.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConfiguration.generated.swift; sourceTree = "<group>"; };
 		C90395231FC622D2006F1DC0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C90395251FC62399006F1DC0 /* TestsAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsAppDelegate.swift; sourceTree = "<group>"; };
 		FCB2C7CA1F57127800481080 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
@@ -163,7 +163,6 @@
 			isa = PBXGroup;
 			children = (
 				2ABEE6D51F3886D700531205 /* RootRouter.swift */,
-				2A9222811F38797600A648E6 /* ConfigurationManager.swift */,
 				2A1DD4DE1F389C2200712195 /* DeeplinkHandler.swift */,
 				2A1DD4E01F389E2100712195 /* NotificationsHandler.swift */,
 			);
@@ -219,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				553FC23B214047CB001D9362 /* R.generated.swift */,
+				62A870E2239916970062E379 /* SwiftConfiguration.generated.swift */,
 			);
 			path = Generated;
 			sourceTree = "<group>";
@@ -231,6 +231,7 @@
 			buildConfigurationList = 2A1E77501F384BFD006C84D4 /* Build configuration list for PBXNativeTarget "{{cookiecutter.app_name}}" */;
 			buildPhases = (
 				553FC23A2140470C001D9362 /* R.swift */,
+				62A870DD2399000D0062E379 /* ShellScript */,
 				2A1E772F1F384BFC006C84D4 /* Sources */,
 				FC9CA61F1F83C1B700B8EB94 /* SwiftLint */,
 				2A1E77301F384BFC006C84D4 /* Frameworks */,
@@ -340,6 +341,23 @@
 			shellPath = /bin/sh;
 			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/{{cookiecutter.app_name}}/Resources/Generated/R.generated.swift\"\n";
 		};
+		62A870DD2399000D0062E379 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#Script debugging\nset -x\n\n# Get path to SwiftConfigurationGenerator script\nSWIFT_CONFIGURATION_GENERATOR_PATH=$PROJECT_DIR/{{cookiecutter.app_name}}/Helpers/Utilities/SwiftConfigurationGenerator.swift\n\n# The input configuration file\nINPUT_PATH=$PROJECT_DIR/{{cookiecutter.app_name}}/SupportingFiles/Configuration.plist\n\n# The generated file output path\nOUTPUT_PATH=$PROJECT_DIR/{{cookiecutter.app_name}}/Resources/Generated/SwiftConfiguration.generated.swift\n\n# Add permission to generator for script execution\nchmod 755 $SWIFT_CONFIGURATION_GENERATOR_PATH\n\n# Execute the script\n$SWIFT_CONFIGURATION_GENERATOR_PATH $INPUT_PATH $OUTPUT_PATH\n";
+		};
 		FC9CA61F1F83C1B700B8EB94 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,10 +379,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A9222821F38797600A648E6 /* ConfigurationManager.swift in Sources */,
 				2ABEE6D61F3886D700531205 /* RootRouter.swift in Sources */,
 				C90395241FC622D2006F1DC0 /* main.swift in Sources */,
 				2A1E77371F384BFC006C84D4 /* AppDelegate.swift in Sources */,
+				62A870E3239916970062E379 /* SwiftConfiguration.generated.swift in Sources */,
 				553FC23C214047CB001D9362 /* R.generated.swift in Sources */,
 				C90395271FC62425006F1DC0 /* TestsAppDelegate.swift in Sources */,
 				2A1DD4E11F389E2100712195 /* NotificationsHandler.swift in Sources */,
