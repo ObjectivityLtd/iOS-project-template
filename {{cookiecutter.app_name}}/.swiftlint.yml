@@ -26,6 +26,7 @@ excluded:
   - Carthage
   - Pods
   - {{cookiecutter.app_name}}/Resources/Generated/R.generated.swift
+  - {{cookiecutter.app_name}}/Resources/Generated/SwiftConfiguration.generated.swift
 identifier_name:
   excluded:
     - id
