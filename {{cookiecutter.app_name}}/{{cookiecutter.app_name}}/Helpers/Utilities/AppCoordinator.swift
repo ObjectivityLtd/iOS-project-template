@@ -1,5 +1,5 @@
 //
-//  RootRouter.swift
+//  AppCoordinator.swift
 //  {{cookiecutter.app_name}}
 //
 //  Copyright © {{cookiecutter.company_name}}. All rights reserved.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RootRouter {
+class AppCoordinator {
 
     /** Replaces root view controller. You can specify the replacment animation type.
      If no animation type is specified, there is no animation */
