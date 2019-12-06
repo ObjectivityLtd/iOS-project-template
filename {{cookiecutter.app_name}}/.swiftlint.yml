@@ -27,7 +27,7 @@ excluded:
   - Pods
   - {{cookiecutter.app_name}}/Resources/Generated/R.generated.swift
   - {{cookiecutter.app_name}}/Resources/Generated/SwiftConfiguration.generated.swift
-  - {{cookiecutter.app_name}}/Helpers/Utilities/SwiftConfigurationGenerator.swift
+  - Scripts/SwiftConfigurationGenerator.swift
 identifier_name:
   excluded:
     - id
