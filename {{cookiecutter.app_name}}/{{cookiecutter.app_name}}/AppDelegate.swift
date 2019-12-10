@@ -11,8 +11,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     lazy private var coordinator = AppCoordinator()
-    lazy private var deeplinkHandler = DeeplinkHandler()
-    lazy private var notificationsHandler = NotificationsHandler()
 
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -20,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
 
         // App structure
-        router.loadMainAppStructure()
+        coordinator.loadMainAppStructure()
 
         return true
     }
