@@ -37,6 +37,8 @@
 		2AB2175C239FA4BD00FEA0A4 /* AppSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2175B239FA4BD00FEA0A4 /* AppSwitch.swift */; };
 		2AB2175E239FA4E300FEA0A4 /* AppLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2175D239FA4E300FEA0A4 /* AppLabel.swift */; };
 		2AB21760239FA52700FEA0A4 /* AppNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2175F239FA52700FEA0A4 /* AppNavigationBar.swift */; };
+		2AB21767239FA9F900FEA0A4 /* AppEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB21765239FA9F900FEA0A4 /* AppEmptyView.swift */; };
+		2AB21768239FA9F900FEA0A4 /* AppEmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AB21766239FA9F900FEA0A4 /* AppEmptyView.xib */; };
 		2ABEE6D41F38856A00531205 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2ABEE6D31F38828A00531205 /* Configuration.plist */; };
 		2ABEE6D61F3886D700531205 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABEE6D51F3886D700531205 /* AppCoordinator.swift */; };
 		553FC23C214047CB001D9362 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553FC23B214047CB001D9362 /* R.generated.swift */; };
@@ -130,6 +132,8 @@
 		2AB2175B239FA4BD00FEA0A4 /* AppSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSwitch.swift; sourceTree = "<group>"; };
 		2AB2175D239FA4E300FEA0A4 /* AppLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLabel.swift; sourceTree = "<group>"; };
 		2AB2175F239FA52700FEA0A4 /* AppNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationBar.swift; sourceTree = "<group>"; };
+		2AB21765239FA9F900FEA0A4 /* AppEmptyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEmptyView.swift; sourceTree = "<group>"; };
+		2AB21766239FA9F900FEA0A4 /* AppEmptyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppEmptyView.xib; sourceTree = "<group>"; };
 		2ABEE6D31F38828A00531205 /* Configuration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
 		2ABEE6D51F3886D700531205 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		553FC23B214047CB001D9362 /* R.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
@@ -314,6 +318,8 @@
 				2AB2175B239FA4BD00FEA0A4 /* AppSwitch.swift */,
 				2AB2175D239FA4E300FEA0A4 /* AppLabel.swift */,
 				2AB2175F239FA52700FEA0A4 /* AppNavigationBar.swift */,
+				2AB21766239FA9F900FEA0A4 /* AppEmptyView.xib */,
+				2AB21765239FA9F900FEA0A4 /* AppEmptyView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -588,6 +594,7 @@
 				2A2F388723999C2A00290122 /* Montserrat-ExtraLight.ttf in Resources */,
 				2A2F388623999C2A00290122 /* Montserrat-Black.ttf in Resources */,
 				2A2F388823999C2A00290122 /* Montserrat-Medium.ttf in Resources */,
+				2AB21768239FA9F900FEA0A4 /* AppEmptyView.xib in Resources */,
 				2A2F388323999C2A00290122 /* Montserrat-Bold.ttf in Resources */,
 				2A2F388523999C2A00290122 /* Montserrat-SemiBold.ttf in Resources */,
 				2A2F388923999C2A00290122 /* Montserrat-Thin.ttf in Resources */,
@@ -694,6 +701,7 @@
 				2A2F387923999B7E00290122 /* AppFont.swift in Sources */,
 				2AB2175E239FA4E300FEA0A4 /* AppLabel.swift in Sources */,
 				2AB21758239FA47F00FEA0A4 /* AppTextField.swift in Sources */,
+				2AB21767239FA9F900FEA0A4 /* AppEmptyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
