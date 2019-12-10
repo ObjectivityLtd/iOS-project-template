@@ -129,3 +129,10 @@ public enum AppFont {
         }
     }
 }
+
+extension String {
+    fileprivate func uppercasedFirstCharacter() -> String {
+        guard count >= 1 else { return self }
+        return replacingCharacters(in: ...startIndex, with: String(self[startIndex]).uppercased())
+    }
+}
