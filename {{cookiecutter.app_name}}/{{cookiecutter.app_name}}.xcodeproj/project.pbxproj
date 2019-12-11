@@ -6,6 +6,20 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		2AF08DB223A13B6D00E9D8CB /* Periphery */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2AF08DB623A13B6D00E9D8CB /* Build configuration list for PBXAggregateTarget "Periphery" */;
+			buildPhases = (
+				2AF08DB723A13BA900E9D8CB /* Periphery */,
+			);
+			dependencies = (
+			);
+			name = Periphery;
+			productName = Periphery;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		2A1E77371F384BFC006C84D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E77361F384BFC006C84D4 /* AppDelegate.swift */; };
 		2A1E773E1F384BFD006C84D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A1E773D1F384BFD006C84D4 /* Assets.xcassets */; };
@@ -543,6 +557,10 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2A1E77321F384BFC006C84D4;
 					};
+					2AF08DB223A13B6D00E9D8CB = {
+						CreatedOnToolsVersion = 11.2.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 2A1E772E1F384BFC006C84D4 /* Build configuration list for PBXProject "{{cookiecutter.app_name}}" */;
@@ -562,6 +580,7 @@
 				2A1E77461F384BFD006C84D4 /* {{cookiecutter.app_name}}Tests */,
 				2A7E64C82399980E00FDE701 /* DesignSystem */,
 				2A7E64D02399980E00FDE701 /* DesignSystemTests */,
+				2AF08DB223A13B6D00E9D8CB /* Periphery */,
 			);
 		};
 /* End PBXProject section */
@@ -613,6 +632,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2AF08DB723A13BA900E9D8CB /* Periphery */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Periphery;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/Periphery/periphery\" scan \\\n--workspace \"{{cookiecutter.app_name}}.xcworkspace/\" \\\n--schemes \"{{cookiecutter.app_name}}\" \\\n--targets \"{{cookiecutter.app_name}}\" \\\n--no-retain-public\n";
+		};
 		553FC23A2140470C001D9362 /* R.swift */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1174,6 +1211,33 @@
 			};
 			name = Staging;
 		};
+		2AF08DB323A13B6D00E9D8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVN8E8NEQT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2AF08DB423A13B6D00E9D8CB /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVN8E8NEQT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Staging;
+		};
+		2AF08DB523A13B6D00E9D8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVN8E8NEQT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1223,6 +1287,16 @@
 				2A7E64E42399980E00FDE701 /* Debug */,
 				2A7E64E52399980E00FDE701 /* Staging */,
 				2A7E64E62399980E00FDE701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AF08DB623A13B6D00E9D8CB /* Build configuration list for PBXAggregateTarget "Periphery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF08DB323A13B6D00E9D8CB /* Debug */,
+				2AF08DB423A13B6D00E9D8CB /* Staging */,
+				2AF08DB523A13B6D00E9D8CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
