@@ -21,5 +21,5 @@ In order to use this control in XIB/Storyboard:
 - Note: Make sure you edit class for Navigation Bar and not Navigation Controller.
 - Note: Styled navigation bar will not be visible in Interface Builder, but only in runtime.
 */
-class AppNavigationBar: UINavigationBar {
+open class AppNavigationBar: UINavigationBar {
 }
