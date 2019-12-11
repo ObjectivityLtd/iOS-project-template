@@ -19,5 +19,5 @@ In order to use this control in XIB/Storyboard:
 
 - Note: Styled control will not be visible in Interface Builder, but only in runtime.
 */
-class AppSwitch: UISwitch {
+open class AppSwitch: UISwitch {
 }

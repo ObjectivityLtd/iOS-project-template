@@ -32,7 +32,7 @@ In order to use this controller programmatically (suggested approach):
        tableView.backgroundView.isHidden = ... // Hide if there are no items.
 
 */
-class AppEmptyView: NibInstantiableView {
+open class AppEmptyView: NibInstantiableView {
 
     /// Icon image for confirmation view.
     @IBInspectable public var iconImage: UIImage? {
