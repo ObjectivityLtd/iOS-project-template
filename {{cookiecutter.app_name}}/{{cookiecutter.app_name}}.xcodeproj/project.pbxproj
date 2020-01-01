@@ -648,7 +648,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "periphery scan \\\n--workspace \"{{cookiecutter.app_name}}.xcworkspace/\" \\\n--schemes \"{{cookiecutter.app_name}}\" \\\n--targets \"{{cookiecutter.app_name}}\" \\\n--no-retain-public \\\n--format xcode\n";
+			shellScript = "periphery scan \\\n--workspace \"{{cookiecutter.app_name}}.xcworkspace/\" \\\n--schemes \"{{cookiecutter.app_name}}\" \\\n--targets \"{{cookiecutter.app_name}}\" \\\n--no-retain-public \\\n--format xcode \\\n--report-exclude \"./{{cookiecutter.app_name}}/Resources/Generated/R.generated.swift\"\n";
 		};
 		553FC23A2140470C001D9362 /* R.swift */ = {
 			isa = PBXShellScriptBuildPhase;
