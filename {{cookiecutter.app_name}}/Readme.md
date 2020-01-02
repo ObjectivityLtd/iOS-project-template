@@ -41,3 +41,7 @@ bundle exec pod install
 * Models - model objects
 * Modules - contains app modules (UI + Code)
 * Helpers - protocols, extension and utility classes
+
+## Tools
+
+* Periphery - A static analysis tool for finding and removing unused code. The project has a special target setup (called Periphery) that will run the Periphery tool and search for dead code. Before running the tool please install Periphery through Homebrew and enable "legacy build system" because the tool brakes down on the new build system.
