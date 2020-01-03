@@ -25,6 +25,7 @@ opt_in_rules:
 excluded:
   - Carthage
   - Pods
+  - XcodeTemplates
   - {{cookiecutter.app_name}}/Resources/Generated/R.generated.swift
   - {{cookiecutter.app_name}}/Resources/Generated/SwiftConfiguration.generated.swift
   - Scripts/SwiftConfigurationGenerator.swift
